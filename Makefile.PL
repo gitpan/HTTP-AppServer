@@ -15,7 +15,7 @@ WriteMakefile(
     	'MIME::Base64' => 0,
     	'Data::UUID' => 0,
     },
-    PMLIBDIRS 		  => [ 'lib', $BASEEXT, 'lib/HTTP/AppServer', 'lib/HTTP/AppServer/Plugin' ],
+    PMLIBDIRS 		  => [ 'lib', $BASEEXT ],
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/HTTP/AppServer.pm', # retrieve abstract from module
        AUTHOR         => 'Tom Kirchner <tom@tkirchner.com>') : ()),

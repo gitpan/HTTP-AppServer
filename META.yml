@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                HTTP-AppServer
-version:             0.01
+version:             0.02
 abstract:            Pure-Perl web application server framework
 license:             ~
 author:              
