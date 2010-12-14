@@ -15,7 +15,7 @@ use warnings;
 use Data::Dumper;
 use HTTP::AppServer::Base;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub new
 {
